@@ -1,0 +1,80 @@
+
+.social-auth-links.text-center {
+    padding: 30px;
+    border: 1px solid #dedede;
+    margin-top: 20px !important;
+    border-radius: 10px;
+}
+/** login --- form [global] **/
+.form-input.form-input-customize .input-group-prepend {
+    padding: 10px 0;
+    background-color: #F6F6F6;
+    border-radius: 5px 0 0 5px;
+}
+.form-input.form-input-customize .input-group-prepend .input-group-text {
+    border: 0;
+    padding: 0 20px;
+    border-right: 3px solid #dedede;
+    background-color: transparent;
+}
+.form-input.form-input-customize input.form-control,
+.form-group.form-input-customize input.form-control {
+    background-color: #F6F6F6;
+    border: 0;
+    padding: 7px 15px;
+    height: 45px;
+}
+.form-group.form-input-customize select.form-select {
+    background-color: #F6F6F6;
+    border: 0;
+    padding: 7px 15px;
+    height: 45px;
+    width: 100%;
+    color: #6e707e;
+}
+.form-group.form-input-customize span {
+    font-size: 12px;
+}
+.form-group.form-input-customize label {
+    color: #000;
+}
+h2.font-weight-bold,
+.reset-request-title h2.font-weight-bold,
+a.font-weight-bold.font-bold-color {
+    color: #FCA716;
+}
+.alert.alert-danger {
+    padding: 5px 10px;
+}
+.forgot-password-input input.gradient-custom-2.font-weight-bold {
+    background-color: #FFF4E2;
+    color: #FCA716 !important;
+}
+/** dashboard --- section **/
+#accordionSidebar.bg-gradient-primary {
+    /* fallback for old browsers */
+    background-color: #FFF9EE;
+    background-image: none;
+}
+#accordionSidebar.sidebar {
+    width: 25rem !important;
+    position: relative;
+}
+#accordionSidebar.sidebar.toggled {
+    overflow: visible;
+    width: 6.5rem !important;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item:hover, 
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item:hover {
+    background-color: #FFF2DA;
+}
+.sidebar.sidebar-light .sidebar-brand {
+    height: auto;
+}
+.profile-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}

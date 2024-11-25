@@ -1,0 +1,76 @@
+
+.no-padding {
+    padding: 0 !important;
+}
+.form-container .form-wrapper {
+    /* margin-top: 2em; */
+    border: 1px solid #dedede;
+}
+.form-container .form-inner {
+    padding: 10% 15%;
+}
+.form-container .form-image .form-image-overlay {
+    background: #FCA716;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.form-container .form-image img {
+    width: 100%;
+    height: 100%;
+}
+.logo-group .text-right.logo-register {
+    padding: 20px 0px;
+}
+.login-title p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: #000;
+}
+.register-title {
+    margin-top: 7%;
+}
+.register-title h2 {
+    color: #000;
+}
+.login-register p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+input.register-next {
+    background-image: url(/assets/img/register-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 40px;
+    width: 67px;
+}
+.password-details p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+.password-details p i.text-success {
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff !important;
+    background-color: green;
+    font-size: 7px;
+}
+.password-status {
+    color: #000;
+}
+.password-status i {
+    font-style: normal;
+}
+.two-factor-group {
+    margin-bottom: 20%;
+}
+.reset-request-title h2.font-weight-bold {
+    margin-top: 15%;
+}
