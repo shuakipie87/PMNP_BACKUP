@@ -41,7 +41,6 @@ class UserFactory extends Factory
             'remember_token' => Str::random(10),
             'two_factor_secret' => '',
             'two_factor_recovery_codes' => '',
-            'phone' => $this->faker->numerify('##########'),
             'role' => function (array $attributes) {
                 return static::$id++ === 1 ?? 0;
             },

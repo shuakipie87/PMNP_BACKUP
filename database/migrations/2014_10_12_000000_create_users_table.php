@@ -19,12 +19,15 @@ return new class extends Migration
             $table->integer('facility_id')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('phone')->nullable();
+            $table->integer('phone');
             $table->string('complete_address')->nullable();
             $table->string('municipality')->nullable();
             $table->string('province')->nullable();
             $table->string('password');
+            // $table->string('reset_password_tokens')->nullable();
             $table->integer('role');
+            $table->text('two_factor_secret')->nullable();
+            $table->text('two_factor_recovery_codes')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

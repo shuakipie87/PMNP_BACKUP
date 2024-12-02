@@ -12,8 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\User::factory(10)->create();
-        \App\Models\UserMeta::factory(10)->create();
+        // \App\Models\User::factory(10)->create();
+        // \App\Models\UserMeta::factory(10)->create();
         // // Master -> Regions
         // \App\Models\Master\Regions::factory()
         //     ->count(17)
@@ -43,7 +43,7 @@ class DatabaseSeeder extends Seeder
         //     ->sequence(
         //         ['cluster' => 'Office of the Secretary – Proper', 'line' => 'OSEC', 'parent' => 0], // 1
         //         ['cluster' => 'UHC Health Services Cluster', 'line' => 'UHC-HSC', 'parent' => 0], // 2
-        //         ['cluster' => 'UHC Policy and Strategy Cluster', 'line' => 'UHC-PSC', 'parent' => 0],
+        //         ['cluster' => 'UHC Policy and Strategy Cluster', 'line' => 'UHC-PSC', 'parent' => 0], 
         //         ['cluster' => 'Public Health Services Cluster', 'line' => 'PHSC', 'parent' => 0].
         //         ['cluster' => 'Management Support Cluster I', 'line' => 'MSC', 'parent' => 0],
         //         ['cluster' => 'Management Support Cluster II', 'line' => 'MSC', 'parent' => 0],
